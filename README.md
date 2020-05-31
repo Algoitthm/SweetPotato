@@ -1,7 +1,16 @@
 # Algoitthm
 공부를 합시다.
-- Github pull 및 push 방법
 
+---
+- Pycharm에서 git 연동하고 사용하는 법
+  - https://dev.plusblog.co.kr/35
+  
+- git 기본(완전기초)
+  - https://blog.naver.com/idjoopal/221478597133
+  - https://blog.naver.com/idjoopal/221479261931
+---
+
+- Github pull 및 push 방법
 1. 처음 받아올 경우
    1. 원하는 프로젝트 "Clone or Download" 버튼 선택 후, 주소 복사
    2. "git clone (주소)" - 현재 github에 업로드된 최신 버전 받아오기
