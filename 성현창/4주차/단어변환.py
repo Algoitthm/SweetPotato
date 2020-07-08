@@ -1,3 +1,9 @@
+""" 
+    https://programmers.co.kr/learn/courses/30/lessons/43163
+    주어진 단어 리스트에서 알파뱃 한개만 변형하여 목표까지 이동하는 문제
+    한번 탐색했던 단어는 다시 갈 일 없다는 점에 착안하여 구현
+"""
+
 def solution(begin, target, words):
     # 예외 케이스
     if target not in words:
@@ -10,7 +16,7 @@ def solution(begin, target, words):
     visited_word = []
 
     while(current_word != target):
-        # 1. 반문하지 않은 words 중에 이동 가능한 단어 찾기
+        # 1. 방문하지 않은 words 중에 이동 가능한 단어 찾기
         for word in words:
             if word not in visited_word and is_possible(current_word, word):
                 bfs_list.append([word, count+1])
