@@ -18,7 +18,7 @@ for genre in genres:  ### dictionary 의 value에 값을 넣을때는 key값이 
 print(genres_dict)
 for data in genres_set:  
     if data[0] in genres_dict:
-        genres_dict[data[0]] += data[1]
+        genres_dict[data[0]] += data[1]    ##생성되어있는 딕셔너리에 벨류값을 넣어줌
 
 print(genres_dict)
 
