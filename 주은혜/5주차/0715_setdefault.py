@@ -16,7 +16,7 @@ for genre in genres:  ### dictionary 의 value에 값을 넣을때는 key값이 
         genres_dict[genre] = 0
 
 print(genres_dict)
-for data in genres_set:  ### dictionary 의 value에 값을 넣을때는 key값이 사전에 존재하지 않으면 오류가 뜸!
+for data in genres_set:  
     if data[0] in genres_dict:
         genres_dict[data[0]] += data[1]
 
