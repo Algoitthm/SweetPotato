@@ -10,12 +10,19 @@ for genre, play in zip(genres,plays):
 
 print(genres_set)
 
+##키에러 보여주기
+# tmp_dict=dict()
+# for data in genres_set:
+#     tmp_dict[data[0]]+=data[1]
+#
+# print(tmp_dict)
+
+
 genres_dict = dict()
 for genre in genres:  ### dictionary 의 value에 값을 넣을때는 key값이 사전에 존재하지 않으면 오류가 뜸!
     if genre not in genres_dict:  ## 그래서 key값을 미리 넣어서 딕셔너리를 생성 해 주었당
         genres_dict[genre] = 0
 
-print(genres_dict)
 for data in genres_set:  
     if data[0] in genres_dict:
         genres_dict[data[0]] += data[1]    ##생성되어있는 딕셔너리에 벨류값을 넣어줌
