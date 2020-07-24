@@ -1,6 +1,7 @@
 # Algoitthm
 
 ### Ground Rule
+![경고](https://user-images.githubusercontent.com/29452256/88355011-dd06ee80-cd9d-11ea-8794-074ca8d5e93e.png)
 - ★ Rule을 지키지 않을 경우 Ground에 묻을 것이다 ★
 - 모임은 2주에 한번 불참시 미리 말해주기~ 지각할 것 같으면 미리 말하기
 - 각자 이주간 뭐햇는지 말하고 괜찮앗던(?) 문제 공유, 풀긴풀엇는데 ㄱㅊ다 스러운거 소개 
