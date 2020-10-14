@@ -23,7 +23,7 @@ def solution(jobs):
                 heapq.heappush(h_list, (job_spend, req_time))
         
         # print(time, h_list[0])
-        # 바로 수행할 수 있는 작업이 있는 경우 해당 작업 수행하고 heap에서 제외
+        # 바로 수행할 수 있는 작업이 있는 경우 해당 작업 수행하기
         if len(h_list) > 0:
             count += 1
             last = time
