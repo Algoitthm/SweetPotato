@@ -21,7 +21,8 @@ else:
             if board[i][j] == 0:
                 continue
             else:
-                board[i][j] = min(board[i-1][j],board[i][j-1],board[i-1][j-1])+1 # 왼쪽/위쪽/ 대각선 방향으로 값을 비교하여, 모두 1로 채워져 있으면 해당 값에 1을 더한 값을 넣어줌
+                board[i][j] = min(board[i-1][j],board[i][j-1],board[i-1][j-1])+1 
+                # 왼쪽/위쪽/ 대각선 방향으로 값을 비교하여, 모두 1로 채워져 있으면 해당 값에 1을 더한 값을 넣어줌
 
                 if max_point < board[i][j]:  #최대값을 board[i][j] 값으로 업데이트
                     max_point = board[i][j]
